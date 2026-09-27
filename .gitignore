@@ -1,0 +1,21 @@
+# Data files (too large for git)
+*.zip
+dataset/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Model checkpoints (too large)
+best_model/
+*.safetensors
+*.bin
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
